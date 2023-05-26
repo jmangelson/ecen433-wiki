@@ -1,6 +1,6 @@
 ## Course Overview
 
-Welcome to ECEN 433 - Introduction to Robotics! 
+Welcome to ECEN 433 (Temporarily 493R) - Introduction to Robotics! 
 
 In this course, you will get a hands on and theoretical introduction to the field of mobile robotics through the perspective of autonomous driving!
 
