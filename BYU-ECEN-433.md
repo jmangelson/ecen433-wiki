@@ -10,6 +10,10 @@ To do so, we will be using [Duckietown](https://www.duckietown.org/), as the har
 
 This is the home page for the course wiki. You will find lots of useful information here about the labs, assignments and other resources. 
 
+This wiki is meant to be viewed online [here](https://publish.obsidian.md/joshua-mangelson/courses/ecen433/BYU-ECEN-433).
+Alternatively it can be cloned from github [here](https://github.com/jmangelson/ecen433-wiki) and viewed via [Obsidian](https://obsidian.md/) locally. 
+Links and other formatting may not appear correctly otherwise. 
+
 Some useful pages:
 - [[Setting-up-Your-Duckiebot]]
 
