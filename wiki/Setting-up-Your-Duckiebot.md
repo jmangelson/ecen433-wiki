@@ -75,6 +75,10 @@ After the Duckiebot has rebooted a few times and the status column reads "Ready"
 
 Open your browser and got to http://HOSTNAME.local/. This will bring you to the dashboard of your car
 
+You can also remote into your duckiebot with the command
+
+`ssh duckie@hostname`
+
 ### Powering off the Duckiebot
 
 Duckiebots can be powered down with the following command
