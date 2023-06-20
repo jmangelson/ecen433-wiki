@@ -17,6 +17,8 @@ Docker is a platform that allows us to manage and deploy software applications i
 
 Follow the instructions to install docker provided by Duckietown [here](https://docs.duckietown.com/daffy/opmanual-duckiebot/setup/setup_laptop/setup_docker.html)
 
+You will also need to make a docker account by following the instructions [here](https://docs.duckietown.com/daffy/opmanual-duckiebot/setup/setup_account/docker_accounts.html)
+
 ### Install the Duckietown Shell
 
 Duckietown Shell (DTS) is a command-line interface that has all of the needed Duckietown operations. To install DTS, use the command:
@@ -48,4 +50,39 @@ Check your token status by running
 `dts tok status`
 
 The Duckietown shell will recognize you as a user if everything is correct.
+
+### SD Card
+
+Once you have the duckietown shell set up, you can now configure the SD card for your duckiebot. Insert the micro-SD into the USB adapter and enter the following command
+
+`dts init_sd_card --hostname HOSTNAME --type duckiebot --configuration DB21J --wifi WIFI`
+
+HOSTNAME = the name of the robot to flash the SD for
+WIFI = comma seperated list of wifi networks to connect to. Ex: wife_name1:password,wife_name2:password
+    * There shouldnt be any space after the commas
+
+Run the command and follow the instructions in the Duckietown Shell to select the device you want to configure. The shell will then write to the SD card
+
+### Booting the Duckiebot
+
+After powering on the Duckiebot with the SD card inside, the lights will turn on. Allow 10-15 minutes for the boot process to complete. You can check the Duckiebot boot status by running the command:
+
+`dts fleet discover`
+
+This will show the status of all the different duckiebots on the network.
+
+After the Duckiebot has rebooted a few times and the status column reads "Ready", you can now access your Duckiebot's dashboard.
+
+Open your browser and got to http://HOSTNAME.local/. This will bring you to the dashboard of your car
+
+### Powering off the Duckiebot
+
+Duckiebots can be powered down with the following command
+
+`dts duckiebot shutdown HOSTNAME`
+
+Duckiebots can also be rebooted with
+
+`dts duckiebot reboot HOSTNAME`
+
 
