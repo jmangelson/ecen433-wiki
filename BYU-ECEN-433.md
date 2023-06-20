@@ -17,7 +17,7 @@ Links and other formatting may not appear correctly otherwise.
 Some useful pages:
 - [[Setting-up-Your-Duckiebot]]
 - [[Setting-up-your-Computer]]
-
+- [[Learning-Exercises]]
 
 ## Help Improve this Wiki
 
